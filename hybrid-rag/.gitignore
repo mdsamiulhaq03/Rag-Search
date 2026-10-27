@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# backend
+backend/.venv/
+backend/index/
+__pycache__/
+.coverage
+.pytest_cache/
+
+# frontend (see also frontend/.gitignore)
+frontend/node_modules/
+frontend/.next/

@@ -1,0 +1,14 @@
+Acme Insight - Product FAQ
+
+What is Acme Insight?
+Acme Insight is our analytics dashboard for retail clients. It shows daily sales, inventory levels,
+and demand forecasts.
+
+Which plans are available?
+Starter (up to 5 users), Growth (up to 50 users), and Enterprise (unlimited users, SSO, and a 99.9% uptime SLA).
+
+How often is data refreshed?
+Sales data refreshes every 15 minutes. Forecasts are recalculated nightly at 02:00 UTC.
+
+Error code AI-503 means the data connector timed out. Ask the client to re-authorize the connector
+in Settings > Integrations. If it persists for more than one hour, escalate to tier-2 support.
